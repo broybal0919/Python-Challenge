@@ -54,3 +54,6 @@ analysis = (f"Total Months: {total_months}\n"
 
 print(analysis)
 
+# Write the results to the txt file
+with open (textfile, "w") as text:
+    text.write(analysis)
