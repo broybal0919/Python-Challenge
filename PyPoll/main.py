@@ -37,8 +37,11 @@ with open(output_path, 'w') as file:
     file.write("------------")
 
 
-print('Analysis')
+print(analysis)
 
+# Write the results to the txt file
+with open (textfile, "w") as text:
+    text.write(analysis)
 
 
     
